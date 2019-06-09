@@ -103,7 +103,7 @@ feature section */
 }
 
 /* pricing-section */
-#pricing{
+#pricing, #news{
   padding: 100px;
   text-align: center;
 }
@@ -129,4 +129,59 @@ feature section */
 
 .footerText{
   color: #fff;
+}
+
+/* news section*/
+ #new-content{
+  padding: 3% 15%;
+  background-color: #fff;
+  position: relative;
+ }
+
+.card-title{
+  font-weight: bold;
+}
+
+.card {
+  padding: 0
+}
+
+.titleimage {
+  right: 0;
+  width: 100%;
+}
+
+img.floatleft {
+    float: left;
+    margin: 0 20px 5px 0;
+  }
+
+.row h1, p{
+  text-align: justify;
+}
+
+@media (max-width : 320){
+  #new-content .row img {
+    height: auto;
+  }
+
+  #new-content .row h1 {
+    font-size: 16vw;
+  }
+
+  #new-content .row p {
+    font-size: 11vw;
+  }
+}
+
+form {
+  padding: 2% 5%
+}
+
+#Textarea1 {
+  width: 800px
+}
+
+#news .card{
+  border: 0;
 }
