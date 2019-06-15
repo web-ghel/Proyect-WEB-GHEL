@@ -1,8 +1,3 @@
-#title{
-  background-color: #048998;
-  color: #f6f5f5;
-}
-
 
 h1{
   font-size: 3.5rem;
@@ -23,37 +18,20 @@ p {
 .container-fluid{
   padding: 3% 15%;
 }
-/* navigation bar */
-.navbar{
-  padding: 0 0 4.5rem;
-}.navbar-brand{
-  font-family: ubuntu;
-  font-size: 2.5rem;
-  font-weight: bold;
 
-}
-
-.nav-item{
-  padding: 0 18px;
-}
-.nav-link{
-  font-size: 1.2rem;
-
-}
 .download-btn{
   margin: 5% 3% 5% 0;
 }
 
-/* title image */
-.titleimage{
+/* title image*/
+.titleimageIndex{
   width: 75%;
-  position: absolute;
-  right: 30%;
-
+  position: relative;
 
 }
-/*
-feature section */
+
+
+/*feature section */
 #features{
   padding: 7% 15%;
   background-color: #fff;
@@ -70,28 +48,7 @@ feature section */
   color: #048998;
 }
 
-/* testimonial section */
-#testimonials{
 
-  text-align: center;
-  background-color: #e9e4e6;
-  color: #048998;
-}
-.carousel-item{
-  padding: 7% 15%;
-}
-.testimonial-img{
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
-
-
-}
-
-.press-logo{
-  width: 13%;
-  margin: 20px 20px 15px
-}
 @media(max-width : 1028px){
   .titleimage{
     position: static;
@@ -107,8 +64,6 @@ feature section */
   padding: 100px;
   text-align: center;
 }
-
-
 #cta{
     background-color: #3bb4c1;
     color: #fff;
@@ -120,16 +75,11 @@ feature section */
   font-size: 3rem;
 }
 
-#footer{
-  background-color: #048998;
-  padding: 5% 15%;
-  text-align: center;
-  color: #fff;
-}
 
-.footerText{
-  color: #fff;
-}
+
+
+
+
 
 /* news section*/
  #new-content{
@@ -146,15 +96,7 @@ feature section */
   padding: 0
 }
 
-.titleimage {
-  right: 0;
-  width: 100%;
-}
 
-img.floatleft {
-    float: left;
-    margin: 0 20px 5px 0;
-  }
 
 .row h1, p{
   text-align: justify;

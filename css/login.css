@@ -2,19 +2,6 @@
   --input-padding-x: 1.5rem;
   --input-padding-y: 0.75rem;
 }
-
-/*-- navbar section -- */
-#title{
-  background-color: #048998;
-  color: #f6f5f5;
-}
-
-
-.login,
-.image {
-  min-height: 100vh;
-}
-
 .bg-image {
   background-image: url('https://source.unsplash.com/WEQbe2jBg40/600x1200');
   background-size: cover;
@@ -92,40 +79,6 @@
   font-size: 12px;
   color: #777;
 }
-
 .container-fluid{
   padding: 1% 15%;
-}
-.navbar{
-  padding: 0 0 0rem;
-}.navbar-brand{
-  font-family: ubuntu;
-  font-size: 2.5rem;
-  font-weight: bold;
-
-}
-
-.nav-item{
-  padding: 0 18px;
-}
-.nav-link{
-  font-size: 1.2rem;
-}
-.register-card{
-  background-color: #e9e4e6;
-}
-.bg-primary{
-  background-color: #3bb4c1 !important; 
-}
-
-
-#footer{
-  background-color: #048998;
-  padding: 5% 15%;
-  text-align: center;
-  color: #fff;
-}
-
-.footerText{
-  color: #fff;
 }

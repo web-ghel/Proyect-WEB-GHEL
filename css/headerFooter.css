@@ -1,0 +1,47 @@
+#title{
+  background-color: #048998;
+  color: #f6f5f5;
+}
+.navbar{
+  padding: 0 0 0rem;
+}.navbar-brand{
+  font-family: ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+#title .container-fluid {
+  padding: 1% 15%; 
+}
+.titleimage {
+  right: 0;
+   height:30%;
+   width: 50%;
+   align:left;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+.register-card{
+  background-color: #e9e4e6;
+}
+.bg-primary{
+  background-color: #3bb4c1 !important;
+}
+
+
+#footer{
+  background-color: #048998;
+  padding: 5% 15%;
+  text-align: center;
+  color: #fff;
+}
+
+.footerText{
+  color: #fff;
+  text-align: center;
+}
