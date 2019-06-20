@@ -5,6 +5,7 @@ h1{
   font-weight: 900;
 }
 h2{
+  
   font-family: "Montserrat";
   font-weight: 900;
 }
@@ -14,6 +15,9 @@ h3{
 }
 p {
   color: #048998;
+}
+li{
+  color: #264e70;
 }
 .container-fluid{
   padding: 3% 15%;
