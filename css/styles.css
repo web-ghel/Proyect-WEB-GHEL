@@ -5,7 +5,7 @@ h1{
   font-weight: 900;
 }
 h2{
-  
+
   font-family: "Montserrat";
   font-weight: 900;
 }
@@ -94,7 +94,7 @@ li{
   float: left;
   height: 200px;
   width: 300px;
-  padding-right: 2%; 
+  padding-right: 2%;
 }
 
 .card-title{
@@ -206,3 +206,15 @@ li{
 }
 
 #mapid { height: 360px; }
+
+
+.img-product{
+  text-align: left;
+  background-color: #f6f5f5;
+
+
+}
+.img-product2{
+  text-align: right;
+  background-color: #f6f5f5; 
+}
