@@ -1,0 +1,25 @@
+{
+  "productos":[
+    {
+      "id": 1 ,
+      "nombre": "Negocio1",
+      "imagen": "/images/prod6.jpg",
+      "descripcion": "Vendemos productos naturales",
+      "tags": "organico"
+    },
+    {
+      "id": 2,
+      "nombre": "Negocio1",
+      "imagen": "/images/prod2.jpg",
+      "descripcion": "Vendemos productos naturales",
+      "tags": "organico"
+    },
+    {
+      "id": 3,
+      "nombre": "Negocio1",
+      "imagen": "/images/prod8.jpg",
+      "descripcion": "Vendemos productos naturales",
+      "tags": "organico"
+    }
+  ]
+}

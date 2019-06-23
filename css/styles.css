@@ -175,7 +175,7 @@ li{
   border: 0;
   border-radius: 0;
   padding: 7px 12px;
-  background: #8894ff
+  background: #b4e9e2
 }
 
 .card-product__imgOverlay li button i, .card-product__imgOverlay li button span {
@@ -185,7 +185,7 @@ li{
 }
 
 .card-product__imgOverlay li button:hover {
-  background: #384aeb
+  background: #2c858f
 }
 
 .card-product__imgOverlay li:not(:last-child) {
@@ -222,5 +222,9 @@ li{
 }
 .img-product2{
   text-align: right;
-  background-color: #f6f5f5; 
+  background-color: #f6f5f5;
+}
+.img-list{
+  width: 300px;
+  height: 400px;
 }

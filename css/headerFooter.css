@@ -1,3 +1,34 @@
+.contactus{
+  background-image: url('https://www.gestamp.com/getmedia/09443a21-664e-424c-9f71-a19b74c0955d/Banner-Contacto');
+
+}
+.team{
+  background-image: url('https://swqdbj8duh1751wh-zippykid.netdna-ssl.com/wp-content/uploads/2018/10/business-team-meeting-boardroom_4460x4460.jpg');
+}
+.news{
+  background-image: url('https://images.theconversation.com/files/228273/original/file-20180718-142423-w8trst.jpg?ixlib=rb-1.1.0&amp;q=45&amp;auto=format&amp;w=1356&amp;h=668&amp;fit=crop');
+
+}
+main section.jumbotron {
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    opacity: 0.7;
+    border-radius: 0rem;
+    margin-bottom: 0rem;
+}
+
+
+
+section.jumbotron>* {
+    filter: blur(0px);
+}
+.jumbotron{
+  padding-top: 170px;
+  padding-bottom: 170px;
+}
+
+
 #title{
 
   background-color: #b4e9e2;
@@ -9,7 +40,9 @@
   text-transform: uppercase;
   font-weight: bold;
   font-size: 40px;
-  color: #2c858f;
+  color: black;
+  opacity: 1;
+  letter-spacing: .1em;
 }
 .navbar{
   padding: 0 0 0rem;
@@ -36,8 +69,8 @@
 }
 .titleimage {
   right: 0;
-   height:50%;
-   width: 70%;
+   height:15%;
+   width: 35%;
    align-items:left;
 }
 
