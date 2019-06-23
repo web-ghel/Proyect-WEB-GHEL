@@ -79,9 +79,15 @@ li{
   font-size: 3rem;
 }
 
+#informacion{
+    padding: 5% 8%;
+    background-color: #fff;
+    position: relative;
+    }
 
-
-
+.col-md-6 label{
+  font-weight: bold;
+}
 
 
 /* news section*/
