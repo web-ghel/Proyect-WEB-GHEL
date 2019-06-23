@@ -85,7 +85,7 @@ li{
     position: relative;
     }
 
-.col-md-6 label{
+.col-md-6 label, .col-md-4 label{
   font-weight: bold;
 }
 
@@ -136,8 +136,17 @@ li{
   }
 }
 
-#news .card{
+#news .card, #new-content .card{
   border: 0;
+}
+
+#new-content .card-footer{
+  background-color: #fff;
+  border-top: 0;
+}
+#news{
+  padding: 0 12%;
+  text-align: center;
 }
 
 /* product cards */
