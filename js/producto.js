@@ -56,4 +56,13 @@ $(document).ready(function() {
     }
 
   });
+    $(".btn-success").click(function(){
+      value = $('#busqueda').val().toLowerCase();
+      $("#productosMain .col-lg-4").filter(function(){
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+      });
+
+
+      return false ;
+    });
 });

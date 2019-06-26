@@ -9,16 +9,16 @@
     },
     {
       "id": 2,
-      "nombre": "Negocio1",
+      "nombre": "Negocio2",
       "imagen": "/images/prod2.jpg",
       "descripcion": "Vendemos productos naturales",
       "tags": "organico"
     },
     {
       "id": 3,
-      "nombre": "Negocio1",
+      "nombre": "Negoci3",
       "imagen": "/images/prod8.jpg",
-      "descripcion": "Vendemos productos naturales",
+      "descripcion": "aaaa productos naturales",
       "tags": "organico"
     }
   ]

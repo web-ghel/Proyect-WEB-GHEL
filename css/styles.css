@@ -37,7 +37,7 @@ li{
 /*-----------css3------------*/
 .conten:hover .imaini{
   filter: saturate(120%);
-  
+
   -webkit-transform: rotate(-1deg);transform: rotate(-1deg);
 }
 .conten{
@@ -245,4 +245,8 @@ li{
 .img-list{
   width: 300px;
   height: 400px;
+}
+.input-group{
+  padding-bottom: 10%;
+  padding-top: 5%
 }
