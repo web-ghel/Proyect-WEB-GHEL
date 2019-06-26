@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -24,7 +24,7 @@
     <!-- Nav Bar -->
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg">
-        <a data-intro="Este es el logo y nombre de la página" class="navbar-brand" href="index.html"><img src="images/W2.png" class="titleimage" alt="instance"></a>
+        <a data-step="1"data-intro="Este es el logo y nombre de la página" class="navbar-brand" href="index.html"><img src="images/W2.png" class="titleimage" alt="instance"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -51,7 +51,7 @@
           <h1>Encuentra negocios diversos, innovadores.</h1>
           <button data-intro="Si no posee una cuenta y quiere registrarse para poder publicar sus productos. Presione este botón." class="btn btn-dark btn-lg download-btn" onclick="location.href='register.html'" type="button"><i class="fas fa-sign-in-alt"></i> Registrate</button>
           <button data-intro="Podrá ver los productos/servicios dentro de la página divididos por categorías." class="btn btn-outline-info btn-lg download-btn" onclick="location.href='producto.html'" type="button"><i class="fas fa-book-open"></i> Catálogo</button>
-          <button class="btn btn-outline-info btn-lg download-btn" href="javascript:void(0)" onclick="introJs().start();" type="button"> Guía</button>
+          <button id="multip" class="btn btn-outline-info btn-lg download-btn" href="javascript:void(0)" onclick="introJs().start();" type="button"> Guía</button>
         </div>
         <div class="conten col-lg-6">
           <img class="imaini one-third align-self-end order-md-last img-fluid" src="images/prueba2.svg " alt="web-ecommerce" style="height: 451px;">
@@ -142,6 +142,7 @@
   </footer>
 
     <script src="js/intro.js"></script>
+    <script src="js/intropage.js"></script>
 </body>
 
 </html>
