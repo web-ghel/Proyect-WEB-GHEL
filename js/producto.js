@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  console.log("hola");
+ 
   $.ajax({
     url:'data/productos.json',
     dataType: 'json',
@@ -7,7 +7,7 @@ $(document).ready(function() {
     cache:'false',
     success: function(data){
       $(data.productos).each(function(index,value){
-        console.log(value);
+        
         var div = $('<div></div>').addClass('col-lg-4 col-md-6 mb-4') ;
         var div2 = $('<div></div>').addClass('card text-center card-product') ;
         var div3 = $('<div></div>').addClass('card-product__img') ;
