@@ -4,21 +4,21 @@
       "id": 1 ,
       "nombre": "Negocio1",
       "imagen": "/images/prod6.jpg",
-      "descripcion": "Vendemos productos naturales",
+      "descripcion": "Miel de abejas",
       "tags": "organico"
     },
     {
       "id": 2,
       "nombre": "Negocio2",
       "imagen": "/images/prod2.jpg",
-      "descripcion": "Vendemos productos naturales",
+      "descripcion": "Cafe Orgánico",
       "tags": "organico"
     },
     {
       "id": 3,
       "nombre": "Negoci3",
       "imagen": "/images/prod8.jpg",
-      "descripcion": "aaaa productos naturales",
+      "descripcion": "Crema de manos ",
       "tags": "organico"
     }
   ]
